@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RandomKindness.me — Send Kindness & Positive Compliments</title>
+  
+    <!-- ✅ SEO Meta -->
+    <meta name="description"
+          content="RandomKindness.me spreads small acts of kindness with one click. Get or share a random compliment that brightens someone's day 💛" />
+    <meta name="keywords"
+          content="kindness, compliments, positivity, mindfulness, good vibes, random quote, inspirational" />
+    <meta name="author" content="CleanLink" />
+    <link rel="canonical" href="https://randomkindness.me/" />
+  
+    <!-- ✅ Open Graph (Facebook / LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="RandomKindness.me — Send Kindness" />
+    <meta property="og:description"
+          content="Click once, share kindness. A simple web app that delivers random compliments in many languages." />
+    <meta property="og:url" content="https://randomkindness.me/" />
+    <meta property="og:image" content="https://randomkindness.me/og-image.png" />
+  
+    <!-- ✅ Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="RandomKindness.me — Send Kindness" />
+    <meta name="twitter:description"
+          content="Share a random compliment and make someone smile 💛" />
+    <meta name="twitter:image" content="https://randomkindness.me/og-image.png" />
+  
+    <!-- ✅ Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "RandomKindness.me",
+    "url": "https://randomkindness.me",
+    "description": "Send random compliments in multiple languages and share kindness online.",
+    "creator": {
+      "@type": "Person",
+      "name": "CleanLink"
+    }
+  }
+  </script>
+        
+<body>
+  <main>
+    <!-- 🌐 Language Selector -->
+    <select id="langSelect">
+      <option value="auto" selected>🌐 Auto</option>
+      <option value="en">English</option>
+      <option value="de">Deutsch</option>
+      <option value="ar">العربية</option>
+      <option value="fr">Français</option>
+      <option value="es">Español</option>
+      <option value="it">Italiano</option>
+      <option value="tr">Türkçe</option>
+      <option value="ja">日本語</option>
+      <option value="hi">हिन्दी</option>      
+    </select>
+
+    <!-- 💛 Buttons Section -->
+    <div id="button-container">
+      <button id="kindnessBtn">💛 Send Kindness</button>
+      <a id="coffeeBtn" href="https://buymeacoffee.com/hayderh" target="_blank">
+        ☕ Add Your Kindness (€1)
+      </a>
+    </div>
+
+    <!-- 🩵 Compliment text -->
+    <div id="compliment"></div>
+  </main>
+
+  <!-- JS logic -->
+  <script src="main.js"></script>
+</body>
+</html>
